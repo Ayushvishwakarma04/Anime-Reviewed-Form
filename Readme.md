@@ -43,7 +43,7 @@ This is a Anime Review Form website designed using HTML, CSS, Bootstrap, and Jav
 
 ## Deployed Link
 
--https://anime-reviewed-form.vercel.app
+- https://anime-reviewed-form.vercel.app
 
 ## Author
 
