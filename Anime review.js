@@ -46,6 +46,7 @@ document.addEventListener("DOMContentLoaded", function() {
   console.log('Name: ' + profile.getName());
   console.log('Image URL: ' + profile.getImageUrl());
   console.log('Email: ' + profile.getEmail()); // This is null if the 'email' scope is not present.
+  document.getElementById('mail').value = profile.getEmail();
 }
   
   // Add a click event listener to the link
