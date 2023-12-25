@@ -19,21 +19,17 @@ document.addEventListener("DOMContentLoaded", function() {
   });
 
   const googleAuth = new google.auth.OAuth2Client();
-  function signIn() {
-    googleAuth.init({
-      clientId: '285670484684-pl526ftm74kvc5vdu6t40gbht6p6lufl.apps.googleusercontent.com',
-      clientSecret: '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',
-      scope: 'https://www.googleapis.com/auth/userinfo.email'
-    }).then(function () {
-      return googleAuth.signIn();
-    }).then(function (response) {
-      // Handle successful sign-in
-      console.log(response.accessToken); // Access token for API calls
-    }).catch(function (error) {
-      // Handle sign-in errors
-      console.error(error);
+ function signIn() {
+  gapi.load('auth2', function() {
+    gapi.auth2.init({
+      client_id: '285670484684-pl526ftm74kvc5vdu6t40gbht6p6lufl.apps.googleusercontent.com',
+    }).then(function(auth2) {
+      auth2.signIn().then(function(googleUser) {
+        onSignIn(googleUser);
+      });
     });
-  }
+  });
+}
 
     function onSignIn(googleUser) {
         var profile = googleUser.getBasicProfile();
