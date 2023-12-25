@@ -135,6 +135,14 @@
         <a href="#">Report a problem</a>&nbsp;|&nbsp;
     </footer>   
     </div>
+    <script>
+    function onSignIn(googleUser) {
+        var profile = googleUser.getBasicProfile();
+        var userEmail = profile.getEmail();
+        document.getElementById('mail').value = userEmail;
+    }
+    </script>
+    <input type="hidden" id="mail" name="mail">
     <script src="Anime review.js"></script>
 </body>
 </html>
