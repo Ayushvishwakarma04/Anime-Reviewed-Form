@@ -29,6 +29,8 @@ This is a Anime Review Form website designed using HTML, CSS, Bootstrap, and Jav
 
 4. Click the "Submit" button to submit the review. You will be redirected to the "Thank You" page.
 
+5. Utilize the "Sign In" button for user accounts and explore the "Payment/Support" feature.
+
 ## Customization
 
 - You can customize the website's appearance and behavior by modifying the `style.css` and `Anime review.js` files.
@@ -39,10 +41,15 @@ This is a Anime Review Form website designed using HTML, CSS, Bootstrap, and Jav
 - Bootstrap: [GetBootstrap](https://getbootstrap.com/)
 - Bootstrap is used for creating responsive and attractive UI components.
 
+##Deployed Link
+
+-https://anime-reviewed-form.vercel.app
+
 ## Author
 
 - [AYUSH VISHWAKARMA]
 
 Feel free to modify and expand upon this frontend template to add more features or integrate it with a backend for data storage and retrieval if needed.
+
 
 
