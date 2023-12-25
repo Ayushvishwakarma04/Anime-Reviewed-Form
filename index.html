@@ -46,9 +46,6 @@
             <img style="margin-right: 8px;" src="Payment.png" width="38px" height=auto alt="Your Alt Text" class="navbar-image">
         </a>
         <div class="g-signin2" data-onsuccess="onSignIn"></div>
-          <button onclick="signIn()">
-          <img style="margin-right: 8px;" src="Sign in.png" width="38px" height=auto alt="Your Alt Text" class="navbar-image">
-          </button>
       </div>
         </div>
       </nav>
@@ -135,13 +132,6 @@
         <a href="#">Report a problem</a>&nbsp;|&nbsp;
     </footer>   
     </div>
-    <script>
-    function onSignIn(googleUser) {
-        var profile = googleUser.getBasicProfile();
-        var userEmail = profile.getEmail();
-        document.getElementById('mail').value = userEmail;
-    }
-    </script>
     <input type="hidden" id="mail" name="mail">
     <script src="Anime review.js"></script>
 </body>
