@@ -11,7 +11,7 @@ This is a Anime Review Form website designed using HTML, CSS, Bootstrap, and Jav
 
 ## Files Included
 
-- `Main Page.html`: The main HTML file containing the Anime Review Form.
+- `index.html`: The main HTML file containing the Anime Review Form.
 - `style.css`: Custom CSS file for styling.
 - `style1.css`: Custom CSS file for styling.
 - `style copy.css`: Custom CSS file for styling.
@@ -23,7 +23,7 @@ This is a Anime Review Form website designed using HTML, CSS, Bootstrap, and Jav
 
 1. Clone this repository to your local machine:
 
-2. Open the `Main Page.html` file in your web browser to access the Anime Review Form.
+2. Open the `index.html` file in your web browser to access the Anime Review Form.
 
 3. Fill out the form with your anime review details.
 
