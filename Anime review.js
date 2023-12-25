@@ -21,8 +21,8 @@ document.addEventListener("DOMContentLoaded", function() {
   const googleAuth = new google.auth.OAuth2Client();
   function signIn() {
     googleAuth.init({
-      clientId: 'YOUR_CLIENT_ID.apps.googleusercontent.com',
-      clientSecret: 'YOUR_CLIENT_SECRET',
+      clientId: '285670484684-pl526ftm74kvc5vdu6t40gbht6p6lufl.apps.googleusercontent.com',
+      clientSecret: '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',
       scope: 'https://www.googleapis.com/auth/userinfo.email'
     }).then(function () {
       return googleAuth.signIn();
